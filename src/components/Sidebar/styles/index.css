@@ -1,5 +1,28 @@
 .sidebar {
+  display: flex;
+  width: 25vw;
+  height: 100vh;
+}
+
+svg {
+  color: black;
+}
+
+.sidebar-container {
     display: flex;
-    width: 25vw;
+    flex-direction: column;
+    width: auto;
+    color: white;
+    background-color: black;
+    width: 15vw;
     height: 100vh;
+    padding: 8px;
+}
+
+h5 {
+    font-weight: 900;
+    font-size: 24px;
+    display: flex;
+    width: auto;
+    padding: 16px;
 }

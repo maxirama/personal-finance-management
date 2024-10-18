@@ -1,6 +1,6 @@
-import Sidebar from "../components/Sidebar/Sidebar";
-const Home = () => {
+import Sidebar from "../components/Sidebar";
 
+const Home = () => {
   return <Sidebar />;
 };
 
