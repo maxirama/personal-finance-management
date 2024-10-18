@@ -8,7 +8,7 @@ interface IMenuItemProps {
 const MenuItem: React.FC<IMenuItemProps> = ({ icon, item }: IMenuItemProps) => {
   return (
     <div className="menu-item">
-      <img src={icon} />
+      <img className="sidebar-icon" src={icon} />
       <p>{item}</p>
     </div>
   );

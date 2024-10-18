@@ -1,5 +1,6 @@
 * {
   font-family: "PublicSans", sans-serif;
+  padding: 0px;
 }
 
 @font-face {
@@ -22,8 +23,7 @@
 
 @font-face {
   font-family: "PublicSansBold";
-  src: url("../src/assets/fonts/static/PublicSans-Bold.ttf")
-    format("truetype");
-    font-weight: normal;
-    font-style: bold;
+  src: url("../src/assets/fonts/static/PublicSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: bold;
 }
