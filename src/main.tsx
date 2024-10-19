@@ -13,21 +13,19 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home />,
   },
-  { path: "/Budget",
-    element: <Budget />
-  },
+  { path: "/Budget", element: <Budget /> },
   {
     path: "/Pots",
-    element: <Pots />
+    element: <Pots />,
   },
   {
     path: "/RecurringBills",
-    element: <RecurringBills />
+    element: <RecurringBills />,
   },
   {
     path: "/Transactions",
-    element: <Transactions />
-  }
+    element: <Transactions />,
+  },
 ]);
 
 createRoot(document.getElementById("root")!).render(
