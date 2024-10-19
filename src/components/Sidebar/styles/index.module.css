@@ -13,7 +13,7 @@ svg {
   flex-direction: column;
   width: auto;
   color: lightgray;
-  background-color: #1A1A1C;
+  background-color: #1a1a1c;
   width: 15vw;
   height: 100vh;
   padding: 8px;
@@ -21,10 +21,10 @@ svg {
   border-bottom-right-radius: 8px;
 }
 
-.toggle-menu-item {
-    display: flex;
-    flex-direction: column-reverse;
-    height: 50vh;
+.toggle-menu-item-open {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 50vh;
 }
 
 h5 {
@@ -32,6 +32,7 @@ h5 {
   font-size: 24px;
   display: flex;
   width: auto;
-  padding: 16px;
+  padding: 16px !important;
   color: white;
+  gap: 8px;
 }
