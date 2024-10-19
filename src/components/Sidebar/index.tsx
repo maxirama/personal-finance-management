@@ -56,7 +56,7 @@ const Sidebar = () => {
       {SidebarItems.map((item) => {
         return item;
       })}
-      <span className={toggleItemStyle} onClick={handleClick}>
+      <span className={toggleItemStyle} onClick={handleClick} >
         {sidebarOpen && (
           <MenuItem
             item={"Minimize Menu"}

@@ -11,9 +11,10 @@ const MenuItem: React.FC<IMenuItemProps> = ({
   item,
   sidebarOpen,
 }: IMenuItemProps) => {
+  const svgStyle = item === "" ? "inverted-icon" : "sidebar-icon";
   return (
     <div className={`${styles["menu-item"]}`}>
-      <img className={`${styles["sidebar-icon"]}`} src={icon} />
+      <img className={`${styles[svgStyle]}`} src={icon} />
       {sidebarOpen && <p>{item}</p>}
     </div>
   );

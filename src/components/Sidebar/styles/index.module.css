@@ -27,6 +27,12 @@ svg {
   height: 50vh;
 }
 
+.toggle-menu-item-close {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 50vh;
+}
+
 h5 {
   font-weight: 900;
   font-size: 24px;
