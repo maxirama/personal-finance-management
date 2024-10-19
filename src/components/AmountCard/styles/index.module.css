@@ -1,5 +1,8 @@
-
-.amount-card-container{
-    border-radius: 8px ;
-    
+.amount-card {
+    height: 10vh;
+    width: 25vw;
+    padding: 16px !important;
+    background-color: white;
+    border-radius: 16px;
+    font-weight: bold;
 }
