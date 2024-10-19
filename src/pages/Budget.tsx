@@ -1,5 +1,5 @@
 import Sidebar from "../components/Sidebar";
 
-export const Home = () => {
+export const Budget = () => {
   return <Sidebar />;
 };
