@@ -1,7 +1,8 @@
 .main-container {
   display: flex;
   padding: 32px !important;
-  width: auto;
+  width: 100%;
+  flex-direction: column;
 }
 .page-wrapper {
     display: flex;
@@ -9,4 +10,5 @@
 }
 h1 {
   padding: 16px;
+  font-size: 32px;
 }
