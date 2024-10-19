@@ -1,0 +1,38 @@
+.sidebar {
+  display: flex;
+  width: 25vw;
+  height: 100vh;
+}
+
+svg {
+  color: slategray;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  color: lightgray;
+  background-color: #1a1a1c;
+  width: 15vw;
+  height: 100vh;
+  padding: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.toggle-menu-item-open {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 50vh;
+}
+
+h5 {
+  font-weight: 900;
+  font-size: 24px;
+  display: flex;
+  width: auto;
+  padding: 16px !important;
+  color: white;
+  gap: 8px;
+}
