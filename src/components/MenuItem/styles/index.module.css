@@ -7,6 +7,10 @@
   margin-left: 16px;
 }
 
+p {
+  overflow: hidden;
+}
+
 .menu-item :hover {
   color: white;
 }
@@ -17,7 +21,18 @@
   filter: grayscale(100%); /* Optional: Makes the icons grayscale */
   transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition */
   gap: 16px;
-  padding: 8px !important;
+  padding: 16px !important;
+}
+
+.inverted-icon {
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%); /* Optional: Makes the icons grayscale */
+  transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  gap: 16px;
+  padding: 16px !important;
+
+  transform: scaleX(-1);
 }
 
 /* Hover state for icon */
@@ -30,5 +45,4 @@ a {
   text-decoration: none;
   filter: grayscale(50%); /* Optional: Makes the icons grayscale */
   color: lightgray;
-
 }

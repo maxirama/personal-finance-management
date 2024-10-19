@@ -43,6 +43,10 @@ const Sidebar = () => {
     </Link>,
   ];
 
+  const sidebarContainerStyle = sidebarOpen
+    ? `${styles["sidebar-container-open"]}`
+    : `${styles["sidebar-container-closed"]}`;
+
   const toggleItemStyle = sidebarOpen
     ? `${styles["toggle-menu-item-open"]}`
     : `${styles["toggle-menu-item-close"]}`;
@@ -51,7 +55,7 @@ const Sidebar = () => {
     setSidebarOpen(!sidebarOpen);
   };
   return (
-    <aside className={`${styles["sidebar-container"]}`}>
+    <aside className={`${sidebarContainerStyle}`}>
       <h5>{sidebarOpen ? "finance" : "f"}</h5>
       {SidebarItems.map((item) => {
         return item;
