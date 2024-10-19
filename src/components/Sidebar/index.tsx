@@ -1,5 +1,4 @@
 import styles from "./styles/index.module.css";
-import { SidebarItems } from "../../types";
 import { Link } from "react-router-dom";
 import OverviewLogo from "../../assets/images/icon-nav-overview.svg";
 import TransactionsLogo from "../../assets/images/icon-nav-transactions.svg";
