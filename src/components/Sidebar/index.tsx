@@ -1,5 +1,4 @@
 import styles from "./styles/index.module.css";
-import { SidebarItems } from "../../types";
 import { Link } from "react-router-dom";
 import OverviewLogo from "../../assets/images/icon-nav-overview.svg";
 import TransactionsLogo from "../../assets/images/icon-nav-transactions.svg";
@@ -60,12 +59,13 @@ const Sidebar = () => {
       {SidebarItems.map((item) => {
         return item;
       })}
-      <span className={toggleItemStyle} onClick={handleClick}>
+      <span className={toggleItemStyle}>
         {sidebarOpen && (
           <MenuItem
             item={"Minimize Menu"}
             icon={MinimizeMenuLogo}
             sidebarOpen={sidebarOpen}
+            handleClick={handleClick}
           />
         )}
         {!sidebarOpen && (
@@ -73,6 +73,7 @@ const Sidebar = () => {
             item=""
             icon={MinimizeMenuLogo}
             sidebarOpen={!sidebarOpen}
+            handleClick={handleClick}
           />
         )}
       </span>

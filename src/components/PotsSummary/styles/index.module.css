@@ -1,0 +1,41 @@
+.pot-details-list {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 8px;
+}
+
+.pot-summary-container {
+  width: fit-content;
+  background-color: white;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 16px;
+}
+
+.total-saved-description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.total-saved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pot-details-container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.pot-card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}

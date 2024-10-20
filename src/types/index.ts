@@ -4,4 +4,3 @@ type SidebarItem = {
 };
 
 export type SidebarItems = SidebarItem[];
-

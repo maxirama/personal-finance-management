@@ -1,0 +1,14 @@
+.pot-details-container {
+  background-color: white;
+  width: 160px;
+  padding: 8px ;
+}
+
+.pot-details-container > p {
+  color: lightslategray;
+}
+
+.pot-details-amount {
+  font-weight: bold;
+  color: black ;
+}
