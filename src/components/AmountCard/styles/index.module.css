@@ -1,7 +1,7 @@
 .amount-card {
   height: auto;
   width: 100%;
-  padding: 8px !important;
+  padding: 8px;
   background-color: white;
   border-radius: 16px;
   font-weight: bold;
@@ -17,7 +17,7 @@
 .main-amount-card {
   height: auto;
   width: 100%;
-  padding: 16px !important;
+  padding: 16px ;
   background-color: white;
   border-radius: 16px;
   font-weight: bold;

@@ -1,7 +1,7 @@
 .pot-details-container {
   background-color: white;
   width: 160px;
-  padding: 8px !important;
+  padding: 8px ;
 }
 
 .pot-details-container > p {
@@ -10,5 +10,5 @@
 
 .pot-details-amount {
   font-weight: bold;
-  color: black !important;
+  color: black ;
 }

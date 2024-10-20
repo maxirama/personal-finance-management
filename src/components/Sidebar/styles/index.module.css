@@ -51,7 +51,7 @@ h5 {
   font-size: 24px;
   display: flex;
   width: auto;
-  padding: 16px !important;
+  padding: 16px ;
   color: white;
   gap: 8px;
 }

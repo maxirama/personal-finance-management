@@ -21,7 +21,7 @@ p {
   filter: grayscale(100%); /* Optional: Makes the icons grayscale */
   transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition */
   gap: 16px;
-  padding: 16px !important;
+  padding: 16px ;
 }
 
 .inverted-icon {
@@ -30,7 +30,7 @@ p {
   filter: grayscale(100%); /* Optional: Makes the icons grayscale */
   transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition */
   gap: 16px;
-  padding: 16px !important;
+  padding: 16px ;
 
   transform: scaleX(-1);
 }

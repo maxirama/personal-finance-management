@@ -10,21 +10,26 @@ export const PotsSummary = () => {
   ];
   return (
     <div className={style["pot-summary-container"]}>
-      <h4>Pots</h4>
-      <div>
-        Total Saved
-        <div>$850</div>
+      <div className={style["pot-card-title"]}>
+        <h4>Pots</h4>
+        <div>View All</div>
       </div>
-      <div className={style["pot-details-list"]}>
-        {PotsDetailList.map((pot) => {
-          return (
-            <PotDetails
-              title={pot.description}
-              amount={pot.amount}
-              borderColor={pot.borderColor}
-            />
-          );
-        })}
+      <div className={style["pot-details-container"]}>
+        <div className={style["total-saved"]}>
+          Total Saved
+          <div>$850</div>
+        </div>
+        <div className={style["pot-details-list"]}>
+          {PotsDetailList.map((pot) => {
+            return (
+              <PotDetails
+                title={pot.description}
+                amount={pot.amount}
+                borderColor={pot.borderColor}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );
