@@ -6,4 +6,4 @@ const getFormattedNumber = (number: number) => {
   return formattedNumber;
 };
 
-export {getFormattedNumber}
+export { getFormattedNumber };
