@@ -1,13 +1,26 @@
 .amount-card {
   height: auto;
-  width: 25vw;
+  width: 100%;
+  padding: 8px !important;
+  background-color: white;
+  border-radius: 16px;
+  font-weight: bold;
+  height: auto;
+}
+
+.amount-card > p,
+.main-amount-card > p {
+  font-size: 28px;
+  align-self: center;
+}
+
+.main-amount-card {
+  height: auto;
+  width: 100%;
   padding: 16px !important;
   background-color: white;
   border-radius: 16px;
   font-weight: bold;
-}
-
-.amount-card > p {
-    font-size: 28px;
-    align-self: center;
+  background-color: #201f24;
+  color: white;
 }
