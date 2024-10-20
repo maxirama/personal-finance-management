@@ -12,7 +12,7 @@ export const PotDetails: React.FC<IPotDetailsProps> = ({
   return (
     <div
       className=""
-      style={{ borderRight: `1px solid ${borderColor || "black"}` }}
+      style={{ borderLeft: `5px solid ${borderColor || "black"}` }}
     >
       <h5> {title}</h5>
       <p> {amount}</p>

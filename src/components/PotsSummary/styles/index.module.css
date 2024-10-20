@@ -1,3 +1,4 @@
-.pot-details-container{
-    background-color: gray;
+.pot-details-list {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
 }
