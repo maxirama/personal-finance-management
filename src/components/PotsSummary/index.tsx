@@ -9,7 +9,7 @@ export const PotsSummary = () => {
     { description: "New Laptop", amount: 10, borderColor: "#f2cdac" },
   ];
   return (
-    <div>
+    <div className={style["pot-summary-container"]}>
       <h4>Pots</h4>
       <div>
         Total Saved

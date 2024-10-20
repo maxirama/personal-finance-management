@@ -1,4 +1,11 @@
 .pot-details-list {
   display: grid;
   grid-template-columns: 2fr 2fr;
+  gap: 8px;
+
+}
+
+.pot-summary-container{
+    width: fit-content
+    
 }
