@@ -12,12 +12,18 @@
   border-radius: 16px;
 }
 
-.total-saved {
+.total-saved-description {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 16px;
   padding: 16px;
+}
+
+.total-saved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pot-details-container {

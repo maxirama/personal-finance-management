@@ -16,8 +16,11 @@ export const PotsSummary = () => {
       </div>
       <div className={style["pot-details-container"]}>
         <div className={style["total-saved"]}>
-          Total Saved
-          <div>$850</div>
+          <img style={{ height: "40px", width: "40px" }} src={PotLogo} />
+          <div className={style["total-saved-description"]}>
+            Total Saved
+            <div>$850</div>
+          </div>
         </div>
         <div className={style["pot-details-list"]}>
           {PotsDetailList.map((pot) => {
